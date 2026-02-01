@@ -1,6 +1,6 @@
 # 🚀 Automated Daily Tech Archive
 
-![Status](https://img.shields.io/badge/Hosted_on-UGreen_DXP4800_Plus-blue?style=for-the-badge&logo=docker)
+![Status](https://img.shields.io/badge/Hosted_on-UGreen_DXP4800_Plus-Portainer-blue?style=for-the-badge&logo=docker)
 ![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python)
 ![Automation](https://img.shields.io/badge/Automation-Cron_Job-green?style=for-the-badge&logo=linux)
 
@@ -12,13 +12,11 @@ This repository serves as a **fully automated data archival system**. Every 24 h
 
 Unlike standard scripts, this project is hosted on my private home-lab infrastructure, ensuring 24/7 availability without relying on third-party cloud compute.
 
-* **Hardware:** UGreen DXP4800 Plus (Intel Core i5 NAS)
+* **Hardware:** UGreen DXP4800 Plus (Intel Pentium Gold 8505 NAS)
 * **Orchestration:** Docker + Portainer
 * **Runtime:** Python 3.9-slim (Debian-based)
 * **Scheduling:** Linux `cron` utility
 * **Version Control:** Automated headless Git commits via Personal Access Token (PAT)
-
-
 
 ---
 
@@ -40,7 +38,6 @@ The pipeline follows a strict four-step process every morning:
 | `tracker.py` | Main logic for API interaction and Git automation. |
 | `DAILY_LOG.md` | The cumulative archive of all fetched tech headlines. |
 | `requirements.txt` | Python dependencies (Requests library). |
-| `docker-compose.yml` | The stack configuration for deployment in Portainer. |
 
 ---
 
