@@ -1,6 +1,6 @@
 # 🚀 Automated Daily Tech Archive
 
-![Status](https://img.shields.io/badge/Hosted_on-UGreen_DXP4800_Plus-Portainer-blue?style=for-the-badge&logo=docker)
+![Status](https://img.shields.io/badge/Hosted_on-UGreen_DXP4800_Plus+Portainer-blue?style=for-the-badge&logo=docker)
 ![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python)
 ![Automation](https://img.shields.io/badge/Automation-Cron_Job-green?style=for-the-badge&logo=linux)
 
